@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="Description" content=""/>
+    <link rel="shortcut icon" href=""/>
+    <link href="style.css" rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+  <h3>This project is a fork from <u>jcubi/chat-gpt</u> - check it out at <a href="https://github.com/jcubic/chat-gpt" target="_blank" rel="noopener noreferrer">jcubic/chat-gpt</a></h3>
+  <h3><a href="https://en.wikipedia.org/wiki/Bookmarklet" target="_blank" rel="noopener noreferrer">Wikipedia on Bookmarklet</a>
+  </h3>
+  <h3>Drag this link to your bookmarks <a id="bookmark">Save ChatGPT</a></h3>
+  <script>
+    fetch('https://cdn.jsdelivr.net/gh/EnziTheViking/chat-gpt-fancy-css/bookmark.js')
+      .then(res => res.text())
+      .then(text => bookmark.href = text);
+
+    document.getElementById("bookmark").addEventListener("click", function(e) {
+      e.preventDefault();
+    });
+  </script>
+</body>
+<footer>
+  <p><a href="https://github.com/EnziTheViking/chat-gpt-fancy-css" target="_blank" rel="noopener noreferrer">EnziTheViking
+  chat-gpt-fancy-css
+  V1 - Tested & working as of 1/17/2023</a></p>
+</footer>
+</html>
