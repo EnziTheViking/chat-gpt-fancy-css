@@ -10,6 +10,8 @@ v1 - Tested & working as of 1/17/2023 :white_check_mark:
 
 >Also changed the index.html file
 
+![Alt text](Reference/fancycss.png)
+
 </br></br></br>
 
 
