@@ -1,7 +1,7 @@
 
 # chat-gpt-fancy-css
 
-v1 - Tested & working as of 1/17/2023 :white_check_mark:
+v1 - Tested & working as of 1/25/2023 :white_check_mark:
 
 ## Description - v1
 >Changed some CSS properties like color, adding things like border-radius, etc.
