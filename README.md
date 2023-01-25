@@ -10,7 +10,11 @@ v1 - Tested & working as of 1/17/2023 :white_check_mark:
 
 >Also changed the index.html file
 
-![Alt text](Reference/fancycss.png)
+>Dark Reader on
+![Alt text](Reference/fancycss_darkreader_on.png)
+
+>Dark Reader off
+![Alt text](Reference/fancycss_darkreader_off.png)
 
 </br></br></br>
 
